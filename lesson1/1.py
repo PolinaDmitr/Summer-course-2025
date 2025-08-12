@@ -1,0 +1,17 @@
+a = input()
+print(type(a), a)
+a = int(a)
+print(type(a), a)
+l = ['0', '2']
+print(str(437843), str(56.89), str(True), str(l))
+print(int(67.5678))
+print(round(67.5678))
+print(int('10001', 35))
+print(bin(64738648))
+print(oct(64738648))
+print(hex(64738648))
+a = 64738648
+print('Hello,', a, '!')
+print(f'Hello, {a}!')
+print(f'Hello, {a:x}!')
+print(f'Hello, {a:b}!')
